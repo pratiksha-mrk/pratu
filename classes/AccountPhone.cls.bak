@@ -4,6 +4,10 @@ public static void accoMeth(list<Account>acolist){
             if(ac.Industry == 'Banking'){
             ac.Phone = '666666';   
             }
+			else{
+			ac.Phone = '77777';
+			}
+			
         }
     }
 }
